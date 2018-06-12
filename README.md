@@ -10,6 +10,8 @@ To meassure the temperature with a ds18b20 sensor you need a pullup resistor wit
 
 References:
 - https://community.blynk.cc/t/ds18b20-value-127-but-only-when-connecting-to-blynk-on-esp32/18336
+- https://github.com/milesburton/Arduino-Temperature-Control-Library arduino Dallas temperature
+- https://www.milesburton.com/Dallas_Temperature_Control_Library Dallas Library
 
 ### measure battery voltage (without calibration)
 Since LiPo batteries (usually) supply a voltage between ~4.2 and ~3.2 volts it is necessary to convert the voltage to match the ADC input voltage range. To meassure the battery voltage via ADC you will need a voltage divider. 
