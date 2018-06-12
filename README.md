@@ -2,7 +2,7 @@
 Meassure temperature with a ds18b20 tmperature sensor and send the data to a remote server. The identity of the remote server is verified by ist root certificate and https is used to secure the communication.
 
 
-### meassure battery voltage (without calibartion)
+### meassure battery voltage (without calibration)
 Since LiPo batteries (usually) supply a voltage between ~4.2 and ~3.2 volts it is necessary to convert the voltage to match the ADC input voltage range. To meassure the battery voltage via ADC you will need a voltage divider. 
 
 #### choose attenuation
