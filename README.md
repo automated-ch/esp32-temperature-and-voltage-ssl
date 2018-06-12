@@ -1,6 +1,9 @@
 # esp32 temperature measurement with ds18b20 including battery status
 Meassure temperature with a ds18b20 tmperature sensor and send the data to a remote server. The identity of the remote server is verified by its root certificate and https is used to secure the communication withe remote server.
 
+The battery voltage is also measured via ADC and sent to the server.
+
+
 ### measure temperature with a ds18B20 
 To meassure the temperature with a ds18b20 sensor you need a pullup resistor with 4.7K Ohm.
 
