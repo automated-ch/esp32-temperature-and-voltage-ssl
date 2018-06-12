@@ -1,8 +1,14 @@
-# esp32 temperature meassurement with ds18b20 including battery status
+# esp32 temperature measurement with ds18b20 including battery status
 Meassure temperature with a ds18b20 tmperature sensor and send the data to a remote server. The identity of the remote server is verified by its root certificate and https is used to secure the communication withe remote server.
 
+### measure temperature with a ds18B20 
+To meassure the temperature with a ds18b20 sensor you need a pullup resistor with 4.7K Ohm.
 
-### meassure battery voltage (without calibration)
+
+References:
+- https://community.blynk.cc/t/ds18b20-value-127-but-only-when-connecting-to-blynk-on-esp32/18336
+
+### measure battery voltage (without calibration)
 Since LiPo batteries (usually) supply a voltage between ~4.2 and ~3.2 volts it is necessary to convert the voltage to match the ADC input voltage range. To meassure the battery voltage via ADC you will need a voltage divider. 
 
 #### choose attenuation
@@ -22,3 +28,6 @@ References and further reading:
 - https://www.esp32.com/viewtopic.php?t=1045 ADC input voltage
 - https://www.esp32.com/viewtopic.php?t=2919 voltage mismatch ADC reading
 - http://esp-idf.readthedocs.io/en/latest/api-reference/peripherals/adc.html ESP32 ADC API reference
+
+
+### meassure
