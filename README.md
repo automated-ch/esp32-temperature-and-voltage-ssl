@@ -41,5 +41,6 @@ For the voltage divider following resistors are used:
 
 BAT (+) --- 51 K -- 5.1 K --- ADC PIN --- 20K --- GND (-)
 
-![image](https://user-images.githubusercontent.com/48131740/152804452-82f5e47e-a08a-4abb-a92d-ce296ec25099.png)
+![image](https://user-images.githubusercontent.com/48131740/152804833-df7790e0-ecbe-4fcb-b55f-5667b37d44b0.png)
+
 
