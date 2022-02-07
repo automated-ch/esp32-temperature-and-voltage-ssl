@@ -36,3 +36,9 @@ References and further reading:
 
 
 ### meassure
+
+For the voltage divider following resistors are used:
+
+BAT (+) --- 51 K -- 5.1 K --- ADC PIN --- 20K --- GND (-)
+
+
