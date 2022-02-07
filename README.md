@@ -35,7 +35,7 @@ References and further reading:
 - http://esp-idf.readthedocs.io/en/latest/api-reference/peripherals/adc.html ESP32 ADC API reference
 
 
-### meassure
+### voltage divider for battery voltage meassuerment 
 
 For the voltage divider following resistors are used:
 
